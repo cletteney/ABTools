@@ -1,0 +1,16 @@
+PODS:
+  - ABTools (0.1.0)
+
+DEPENDENCIES:
+  - ABTools (from `../`)
+
+EXTERNAL SOURCES:
+  ABTools:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ABTools: 0fbd694481ce20c7336615604f271b51c800676c
+
+PODFILE CHECKSUM: daa17858350b3e39d3bff4cfdda4b3d2b77cc79d
+
+COCOAPODS: 1.9.1

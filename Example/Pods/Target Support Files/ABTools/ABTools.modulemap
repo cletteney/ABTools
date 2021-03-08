@@ -1,0 +1,6 @@
+framework module ABTools {
+  umbrella header "ABTools-umbrella.h"
+
+  export *
+  module * { export * }
+}

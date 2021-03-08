@@ -1,0 +1,22 @@
+{
+  "name": "ABTools",
+  "version": "0.1.0",
+  "summary": "A short description of ABTools.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Chase Letteney/ABTools",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Chase Letteney": "lettene3@uwm.edu"
+  },
+  "source": {
+    "git": "https://github.com/Chase Letteney/ABTools.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "ABTools/Classes/**/*"
+}
