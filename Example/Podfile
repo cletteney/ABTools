@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'ABTools_Example' do
+  pod 'ABTools', :path => '../'
+
+  target 'ABTools_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
