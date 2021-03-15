@@ -1,16 +1,24 @@
 PODS:
-  - ABTools (0.1.0)
+  - ABTools (0.3.0):
+    - SwiftyJSON (~> 4.0)
+  - SwiftyJSON (4.3.0)
 
 DEPENDENCIES:
   - ABTools (from `../`)
+  - SwiftyJSON (~> 4.0)
+
+SPEC REPOS:
+  trunk:
+    - SwiftyJSON
 
 EXTERNAL SOURCES:
   ABTools:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ABTools: 0fbd694481ce20c7336615604f271b51c800676c
+  ABTools: eed52769a94de56689a80c9e3e975dbfe0e21847
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
 
-PODFILE CHECKSUM: daa17858350b3e39d3bff4cfdda4b3d2b77cc79d
+PODFILE CHECKSUM: 31dc72eeb6bfcc7925e60cfe637ff826d12fa7dd
 
 COCOAPODS: 1.9.1

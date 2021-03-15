@@ -3,6 +3,7 @@ use_frameworks!
 platform :ios, '9.0'
 
 target 'ABTools_Example' do
+  pod 'SwiftyJSON', '~> 4.0'
   pod 'ABTools', :path => '../'
 
   target 'ABTools_Tests' do
