@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		076985E37BADEA01299B3E431AD9D9DF /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348A712182403953D4D5DC3859161925 /* UIViewController+Extensions.swift */; };
 		0A5B1F20DACE46585C4C3C889C8106BD /* Pods-ABTools_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 47133A74E606777563BDE8090FBFAFA8 /* Pods-ABTools_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0F6223259D9D9BD91781DBEEA0181ECE /* ABTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA812BA341067B457F286EFFE497F47 /* ABTools-dummy.m */; };
 		138B6C75FC00198E4329DAD138F3EE3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0570477FB03A97FC79B1D41A902F13D /* Foundation.framework */; };
@@ -65,7 +64,6 @@
 		21FB2EEB5869D465017491BDA5FD4775 /* Pods-ABTools_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ABTools_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2C7CD1B229BC4D929C8E3CCF9E433EA9 /* ABTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ABTools.release.xcconfig; sourceTree = "<group>"; };
 		34844F773825FF5AD9347053C6F33591 /* Pods-ABTools_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ABTools_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		348A712182403953D4D5DC3859161925 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 		3C418F32954487B50FC150568538CEB4 /* Pods-ABTools_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ABTools_Example-frameworks.sh"; sourceTree = "<group>"; };
 		3E90CFD41FBBCD14F4FBE03B68D3DBF2 /* Pods-ABTools_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ABTools_Example.release.xcconfig"; sourceTree = "<group>"; };
 		47133A74E606777563BDE8090FBFAFA8 /* Pods-ABTools_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ABTools_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -145,7 +143,6 @@
 			children = (
 				FDA6AB9E26000CF300DBA9B7 /* Services */,
 				E4654B16C8FD879B2E2DC280DF6628E4 /* Classes */,
-				DFFCC1AD61F59D15025302C159F94CFE /* Extensions */,
 				D81399F4857A28C7B6C57ADBA8CC642A /* Pod */,
 				656E8884DF668B28878753E48B195B14 /* Support Files */,
 			);
@@ -275,14 +272,6 @@
 				E3DD77275A3C30841578D568C68ECBD7 /* README.md */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		DFFCC1AD61F59D15025302C159F94CFE /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				348A712182403953D4D5DC3859161925 /* UIViewController+Extensions.swift */,
-			);
-			path = Extensions;
 			sourceTree = "<group>";
 		};
 		E4654B16C8FD879B2E2DC280DF6628E4 /* Classes */ = {
@@ -522,7 +511,6 @@
 			files = (
 				0F6223259D9D9BD91781DBEEA0181ECE /* ABTools-dummy.m in Sources */,
 				DE7F37D0BC60DBABE74D30BBF508FAA0 /* AlertMessage.swift in Sources */,
-				076985E37BADEA01299B3E431AD9D9DF /* UIViewController+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
